@@ -1,0 +1,6 @@
+#Place-toi à la racine du projet, là où se trouvent src et tests
+
+python -m unittest discover
+
+python -m unittest tests.test_validator
+python -m unittest -v tests.test_validator
